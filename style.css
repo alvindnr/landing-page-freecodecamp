@@ -8,3 +8,25 @@
     main color: #ffffff
     font-color: #f2e5d5
     2nd font color: #ffe8ee */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* header and navbar */
+
+    .header {
+        background-color: #d8f4ff;
+        width: auto;
+        height: 5em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #header-img {
+        padding-left: 1em;
+        max-width: 100%;
+        scale: 0.4;
+    }
+    
