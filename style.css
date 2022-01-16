@@ -2,6 +2,8 @@
 
 body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .header {
@@ -16,18 +18,38 @@ body {
 }
 
 #header-img {
-    width: 116px;
+    width: 7.25rem;
     height: 25px;
+    cursor: pointer;
 }
 
 #nav-bar {
-    background-color: red;
     padding: 0;
     margin: 0;
     font-size: 1.5625rem;
     letter-spacing: 0.05em;
 }
-.nav-list {
+
+#nav-list {
+    padding: 0;
     display: flex;
-    flex: 1;
+    list-style: none;
+    gap: 4.375rem;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #615C55;
+}
+
+.nav-link {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-link:hover {
+    color: #9E9587;
 }
