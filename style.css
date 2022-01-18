@@ -173,6 +173,7 @@ body {
     text-align: center;
     margin-top: 1.875rem;
     font-size: 1.5625rem;
+    font-weight: 300;
     margin-bottom: 3.0625rem;
     margin-right: 1rem;
     margin-left: 1rem;
@@ -196,6 +197,7 @@ body {
     text-align: center;
     margin-top: 1.875rem;
     font-size: 1.5625rem;
+    font-weight: 300;
     margin-bottom: 1.9375rem;
     margin-right: 1rem;
     margin-left: 1rem;
@@ -233,4 +235,92 @@ form {
     flex-direction: column;
     align-items: center;
     gap: 1.1875rem;
+}
+
+.container3 {
+    height: 23.4375rem;
+    background-color: #615C55;
+    color: #fff;
+    margin-top: 4.0625rem;
+}
+
+#career {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.career-container >p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.career-container {
+    width: 22.8125rem;
+    height: 12.4375rem;
+    /* margin: 2.9375rem 62.875rem 8.0625rem 4.3125rem; */
+    padding-top: 2.9375rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.contact-container {
+    padding-top: 2.9375rem;
+}
+
+#contact {
+    padding: 0;
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1.625rem;
+    padding-bottom: 1rem;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.625rem;
+    padding: 0;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
+
+footer {
+    height: 2.4375rem;
+    background-color: #47443F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer2 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.credits >a {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
 }
