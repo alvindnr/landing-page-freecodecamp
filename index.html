@@ -38,14 +38,20 @@
     </header>
     <!-- This is the main hero -->
     <div class="hero">
-        <h1 id="about">
+        <div class="container">
+            <h1 id="about">
             YOUR FAVOURITE CHOICE FOR EVERYDAY MILK
-        </h1>
-        <p>
+            </h1>
+            <p>
             Proudly barn-made with no compromises
-        </p>
+            </p>
+          <div class="container2">
+            <button class="button1">Shop Now</button>
+            <button class="button2">Products</button>
+          </div>
+        </div>
+        <iframe width="500" height="400" src="https://www.youtube.com/embed/7TMtA8Eh9uE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-      <iframe width="500" height="400" src="https://www.youtube.com/embed/7TMtA8Eh9uE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <!-- This is for promo section -->
       <article class="promo-container">
         <h2 id="promo">
@@ -54,29 +60,32 @@
         <p>
             This is our current promo for this month
         </p>
-        <div>
-            <h3>
+        <div class="promo-box1">
+            <h3 class="promo-header">
                 Monday Moodness
             </h3>
-            <p>
+            <p class="promo-text">
                 Buy 1 get 2 for every purchase of our 1L of Milk every Monday
             </p>
+            <input type="submit" id="submit" name="submit" value="See more">
         </div>
-        <div>
+        <div class="promo-box2">
             <h3>
                 Free Shipping
             </h3>
             <p>
                 free delivery charges in Indonesia for every purchase of our product
             </p>
+            <input type="submit" id="submit" name="submit" value="See more">
         </div>
-        <div>
+        <div class="promo-box3">
             <h3>
               Taste Test! <span> (NaN stock left!)</span>
             </h3>
             <p>
                 You can buy our 125ml dairy variant for a limited amount of time! 
             </p>
+            <input type="submit" id="submit" name="submit" value="See more">
         </div>
     </article>
     <form id="form">
@@ -84,7 +93,7 @@
             Enter your email to hear more about our promo:
         </label>
         <input type="email" id="email" name="email" placeholder="enter your email" title="enter your valid email address.">
-        <input type="submit" id="submit" name="submit" value="Submit">
+        <input type="submit" id="submit" name="submit" value="Subscribe">
     </form>
     <!-- This is career section -->
     <article>
