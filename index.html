@@ -50,17 +50,20 @@
             <button class="button2">Products</button>
           </div>
         </div>
-        <iframe width="500" height="400" src="https://www.youtube.com/embed/7TMtA8Eh9uE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="600" height="308" src="https://www.youtube.com/embed/7TMtA8Eh9uE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <!-- This is for promo section -->
       <article class="promo-container">
+      <div class="promo-item">
         <h2 id="promo">
             MONTHLY PROMO!
         </h2>
         <p>
             This is our current promo for this month
         </p>
-        <div class="promo-box1">
+      </div>
+      <div class="promo-card">
+        <div class="promo-box">
             <h3 class="promo-header">
                 Monday Moodness
             </h3>
@@ -69,28 +72,29 @@
             </p>
             <input type="submit" id="submit" name="submit" value="See more">
         </div>
-        <div class="promo-box2">
-            <h3>
+        <div class="promo-box">
+            <h3 class="promo-header">
                 Free Shipping
             </h3>
-            <p>
+            <p class="promo-text2">
                 free delivery charges in Indonesia for every purchase of our product
             </p>
             <input type="submit" id="submit" name="submit" value="See more">
         </div>
-        <div class="promo-box3">
-            <h3>
-              Taste Test! <span> (NaN stock left!)</span>
+        <div class="promo-box">
+            <h3 class="promo-header">
+              Taste Test!
             </h3>
-            <p>
+            <p class="promo-text2">
                 You can buy our 125ml dairy variant for a limited amount of time! 
             </p>
             <input type="submit" id="submit" name="submit" value="See more">
         </div>
+      </div>
     </article>
-    <form id="form">
-        <label for="email" action="/https://www.freecodecamp.com/email-submit" method="get">
-            Enter your email to hear more about our promo:
+    <form id="form" action="/https://www.freecodecamp.com/email-submit" method="post">
+        <label for="email">
+            Subscribe to hear more about our great deals
         </label>
         <input type="email" id="email" name="email" placeholder="enter your email" title="enter your valid email address.">
         <input type="submit" id="submit" name="submit" value="Subscribe">
