@@ -84,11 +84,13 @@ body {
     font-weight: 300;
     margin-top: 0;
     margin-bottom: 2rem;
+    color: #615C55;
 }
 .hero { 
     padding: 17.625rem 4.4375rem;
     display: flex;
     gap: 5.75rem;
+    color: #615C55;
 }
 
 .button1 {
