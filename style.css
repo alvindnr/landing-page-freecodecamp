@@ -207,7 +207,7 @@ body {
 
 .promo-card {
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 12.4375rem;
 }
 
