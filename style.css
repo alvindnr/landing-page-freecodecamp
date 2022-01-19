@@ -342,7 +342,7 @@ footer {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
     .header {
         height: auto;
         max-width: 360px;
@@ -383,6 +383,21 @@ footer {
 
     .promo-item {
         text-align: center;
+        padding-left: 4.4375rem;
+        padding-right: 4.4375rem;
+    }
+
+    #promo {
+        font-size: 3rem;
+    }
+
+    .promo-item >p {
+        font-size: 1.5rem;
+    }
+
+    #form {
+        padding-left: 4.4375rem;
+        padding-right: 4.4375rem;
     }
 
     form >label {
